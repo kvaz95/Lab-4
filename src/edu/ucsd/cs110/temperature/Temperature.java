@@ -8,7 +8,7 @@ public abstract class Temperature {
     public Temperature(float v)	{
         value = v;
     }
-
+    public float value;
     public final float getValue()	{
         return value;
     }
